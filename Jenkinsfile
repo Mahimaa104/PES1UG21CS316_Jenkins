@@ -8,7 +8,7 @@ pipeline {
                 checkout([
                     [$class: 'GitSCM',
                     branches: [[name: '*/main']],
-                    userRemoteConfigs: [[url: 'https://github.com/Mahimaa104/PES1UG21CS316_Jenkins.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/Mahimaa104/PES1UG21CS316_Jenkins']]
                 ])
             }
         }
