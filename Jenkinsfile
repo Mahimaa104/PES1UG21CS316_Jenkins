@@ -23,7 +23,7 @@ pipeline {
         // Stage 3: Test
         stage('Test') {
             steps {
-                sh './output'
+                sh '.output'
             }
         }
 
